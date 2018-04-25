@@ -1,0 +1,7 @@
+{
+    "port": 8080,
+    "db_uri": "mongodb://localhost:27017/nodeproject",
+    "logger": {
+        "level": "tiny"
+    }
+}
