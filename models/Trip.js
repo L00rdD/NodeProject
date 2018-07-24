@@ -1,7 +1,7 @@
 module.exports = app => {
-    class User extends require('./.DBManager')(app) {
+    class Trip extends require('./.DBManager')(app) {
         constructor() {
-            super('users');
+            super('trips');
         }
 
         populate(criteria) {
@@ -21,12 +21,23 @@ module.exports = app => {
         }
 
         verify(data) {
-            return this.checkRequiredStringField(data.firstName) &&
-                this.checkRequiredStringField(data.lastName) &&
-                this.checkRequiredStringField(data.username) &&
-                this.checkRequiredStringField(data.password);
+            if (!this.checkRequiredStringField(data.start) ||
+                !this.checkRequiredStringField(data.end) ||
+                !this.checkRequiredStringField(data.driver))
+                return false;
+
+            if(!this.checkRequiredIntField(data.status))
+                data.status = Trip.Statuses.NotStarted;
+
+            return true;
         }
     }
 
-    return new User();
+    Trip.Statuses = {
+        NotStarted: 0,
+        Started: 1,
+        Finished: 2
+    };
+
+    return new Trip();
 };

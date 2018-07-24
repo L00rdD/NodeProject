@@ -1,42 +1,22 @@
-/*class Car extends Document {
-    constructor() {
-        super();
+module.exports = app => {
+    class Car extends require('./.DBManager')(app) {
+        constructor() {
+            super('cars');
+        }
 
-        this.model = {
-            type: String,
-            required: true
-        };
+        verify(data) {
+            if(!this.checkRequiredStringField(data.model))
+                data.model = "Lamda";
+            if(!this.checkRequiredStringField(data.color))
+                data.color = "White";
+            if(!this.checkRequiredIntField(data.seats))
+                data.seats = 2;
+            if(!this.checkRequiredStringField(data.owner))
+                return false;
 
-        this.color = {
-            type: String,
-            required: true
-        };
-
-        this.seats = {
-            type: Number,
-            required: true,
-            default: 2
-        };
-
-        this.owner = {
-            type: User,
-            required: true
-        };
+            return data;
+        }
     }
 
-    static collectionName() {
-        return 'Car';
-    }
-}*/
-
-class Car {
-    constructor(model, color, seats, owner) {
-        this.model = model;
-        this.color = color;
-        this.seats = seats;
-        this.owner = owner;
-    }
-}
-
-module.exports = app => Car;
-
+    return new Car();
+};

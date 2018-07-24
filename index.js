@@ -5,6 +5,7 @@ const Core = require('idylle').Core;
 const app  = new Core();
 
 app
+    .on(Core.events.init.dependencies, () => ({ utils: require('./models/.DBManager')}))
     .on(Core.events.started, app => console.log(`Server listening on port ${app.settings.port}`))
     .start();
 
