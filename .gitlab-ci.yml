@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "8.10.0"
+
+install:
+- npm install
+
+after_success:
+  - npm test
+
+deploy:
+  provider: back4app
+  api_key: yP3gqGHsQCLyLmt6IKMjgHO8Hxqo9to8DvCaiR6E
+  app: NodeProject
+

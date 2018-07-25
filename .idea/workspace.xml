@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="391d4204-8d9d-45cd-b16b-c110ccac7d26" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/auth/login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/cars/create.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/cars/list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/cars/remove.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/cars/show.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/cars/update.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/trips/clean.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/trips/create.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/trips/finish.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/trips/join.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/trips/list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/trips/remove.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/trips/show.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/trips/start.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/trips/update.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/users/appendCar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/users/create.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/users/list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/users/pullCar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/users/show.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/actions/users/update.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/boot/connect.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/middlewares/ensureAuthenticated.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models/.DBManager.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models/Token.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models/Trip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/auth.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/trips.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/users.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/actions/cars/get.js" afterPath="$PROJECT_DIR$/actions/cars/get.js" />
-      <change beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change beforePath="$PROJECT_DIR$/models/Car.js" afterPath="$PROJECT_DIR$/models/Car.js" />
-      <change beforePath="$PROJECT_DIR$/models/User.js" afterPath="$PROJECT_DIR$/models/User.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/routes/cars.js" afterPath="$PROJECT_DIR$/routes/cars.js" />
-      <change beforePath="$PROJECT_DIR$/settings/settings.json" afterPath="$PROJECT_DIR$/settings/settings.json" />
-    </list>
+    <list default="true" id="391d4204-8d9d-45cd-b16b-c110ccac7d26" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -492,12 +453,12 @@
       <workItem from="1532325247976" duration="239000" />
       <workItem from="1532377712318" duration="11963000" />
       <workItem from="1532413992625" duration="460000" />
-      <workItem from="1532464899772" duration="10717000" />
+      <workItem from="1532464899772" duration="10916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38108000" />
+    <option name="totallyTimeSpent" value="38307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -513,7 +474,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39918116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39918116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
